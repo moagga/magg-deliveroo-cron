@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 /**
  * Represent a time unit (minute, hour, month) in cron expression.
- * It takes a low & high value for the unit (ex: 0 & 50 for minutes)
+ * It takes a low & high value for the unit (ex: 0 & 59 for minutes)
  * and parses the expression for that unit in a list of values.
  */
 class TimeUnit {
